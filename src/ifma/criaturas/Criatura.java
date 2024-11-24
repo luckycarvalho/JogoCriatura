@@ -1,10 +1,10 @@
 package ifma.criaturas;
 
 public class Criatura {
-    public String nome;
-   public String tipo;
-    public String habitat;
-    public int vida = 100;
+    String nome;
+   String tipo;
+    String habitat;
+    int vida = 100;
 
     public Criatura(String nome, String tipo, String habitat) {
         this.nome = nome;
@@ -18,19 +18,27 @@ public class Criatura {
     public int getDefesaTotal(){
         return 5;
     }
+    public boolean morreu(){return this.vida <= 0;}
 
     public void imprimir() {
         System.out.println("Nome: " + this.nome);
         System.out.println("Tipo: " + this.tipo);
         System.out.println("Habitat: " + this.habitat);
-    }
+        System.out.println("Vida: " + this.vida);   }
 
     public void atacar(Criatura monstro_alvo) {
+
         int defesaInimigo = monstro_alvo.getDefesaTotal();;
         int ataque = this.getForcaTotal();
-        double dano = ataque - defesaInimigo;
-        monstro_alvo.vida -= dano * (Math.random() * (2.1 - 1.5));
-        System.out.println("O " + monstro_alvo + " tomou um dano de " + dano + " de " + this.nome);
+
+        int min = 1;
+        int max = 50;
+        int valorAleatorio = (int) (min + (max-min) * Math.random());
+
+        int dano = ataque - defesaInimigo + valorAleatorio;
+        monstro_alvo.vida -= dano;
+
+        System.out.println("O " + monstro_alvo.nome + " tomou um dano de " + dano + " de " + this.nome);
     }
 
     public void defender(Criatura ataque) {

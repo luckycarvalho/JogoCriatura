@@ -12,6 +12,16 @@ public class Monstro extends Criatura {
     }
 
     @Override
+    public int getForcaTotal() {
+        return this.forca + this.dano;
+    }
+
+    @Override
+    public int getDefesaTotal() {
+        return this.resistencia;
+    }
+
+    @Override
     public void imprimir() {
         super.imprimir();
         System.out.println("Força: " + this.forca);
