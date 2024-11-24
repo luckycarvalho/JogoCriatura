@@ -34,11 +34,10 @@ Este projeto é um jogo de turnos baseado em texto, onde jogadores controlam cri
 ## **Exemplo de Uso**
 ### Menu Inicial:
 ```plaintext
-Bem-vindo ao Jogo de Batalhas Mitológicas!
+Bem-vindo ao Jogo de Batalhas entre Criaturas!
 1. Criar Criatura
 2. Escolher Criaturas para Batalha
-3. Iniciar Batalha
-4. Sair
+3. Sair
 Escolha uma opção:
 ```
 ### Durante o Turno:
