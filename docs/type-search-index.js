@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"ifma.criaturas","l":"Animal"},{"p":"ifma.criaturas","l":"Criatura"},{"p":"ifma.jogo","l":"Jogo"},{"p":"ifma.jogo","l":"Menu"},{"p":"ifma.criaturas","l":"Monstro"},{"p":"ifma.criaturas","l":"Personagens"}];updateSearchResults();
