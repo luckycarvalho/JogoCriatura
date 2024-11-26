@@ -54,6 +54,54 @@ Digite o número correspondente à ação desejada:
 - **Linguagem de Programação**: Java
 - **Paradigma de Orientação a Objetos**: Foco em herança para modelar criaturas.
 - **Interface Baseada em Texto**: Entrada e saída via terminal.
+
+---
+
+## **Requisitos**
+Para executar o jogo, você precisa:
+- **Java Runtime Environment (JRE)** ou **Java Development Kit (JDK)** versão **20** ou superior instalado no computador.
+- Um sistema operacional compatível:
+  - **Windows**: Use o arquivo `executar.bat`.
+  - **Linux/Mac**: Execute o arquivo JAR diretamente pelo terminal.
+
+---
+## **Como Executar no Windows**
+1. **Baixe o repositório:**
+   - Clique em **Code > Download ZIP** e extraia os arquivos.
+   - Ou clone o repositório usando:
+     ```sh
+     git clone https://github.com/seu-usuario/JogoCriatura.git
+     ```
+
+2. **Navegue até a pasta raiz do projeto, onde estão os arquivos:**
+   - `JogoCriatura.jar`
+   - `executar.bat`
+
+3. **Execute o jogo:**
+   - Clique duas vezes no arquivo `executar.bat`.
+
+4. **Pronto!** O jogo será iniciado em uma janela do terminal.
+
+---
+
+## **Como Executar no Linux/Mac**
+1. **Baixe o repositório:**
+   - Clique em **Code > Download ZIP** e extraia os arquivos.
+   - Ou clone o repositório usando:
+     ```sh
+     git clone https://github.com/seu-usuario/JogoCriatura.git
+     ```
+
+2. **Navegue até o diretório do projeto pelo terminal:**
+   ```sh
+   cd /caminho/para/JogoCriatura
+   ```
+3. **Execute o arquivo JAR com o seguinte comando:**
+   ```sh
+   java -jar JogoCriatura.jar
+   ```
+4. **Pronto! O jogo será iniciado diretamente no terminal.**
+
 ---
 
 ## **Contribuições**  
