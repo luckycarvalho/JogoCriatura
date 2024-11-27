@@ -61,7 +61,7 @@ Digite o número correspondente à ação desejada:
 Para executar o jogo, você precisa:
 - **Java Runtime Environment (JRE)** ou **Java Development Kit (JDK)** versão **20** ou superior instalado no computador.
 - Um sistema operacional compatível:
-  - **Windows**: Use o arquivo `executar.bat`.
+  - **Windows**: Use o arquivo `executarJogoCriatura.bat`.
   - **Linux/Mac**: Execute o arquivo JAR diretamente pelo terminal.
 
 ---
@@ -75,10 +75,10 @@ Para executar o jogo, você precisa:
 
 2. **Navegue até a pasta raiz do projeto, onde estão os arquivos:**
    - `JogoCriatura.jar`
-   - `executar.bat`
+   - `executarJogoCriatura.bat`
 
 3. **Execute o jogo:**
-   - Clique duas vezes no arquivo `executar.bat`.
+   - Clique duas vezes no arquivo `executarJogoCriatura.bat`.
 
 4. **Pronto!** O jogo será iniciado em uma janela do terminal.
 
